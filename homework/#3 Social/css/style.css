@@ -1,0 +1,156 @@
+html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden; }
+
+body {
+  height: 100%;
+  width: 100%; }
+
+.social h2,
+.social2 h2,
+.social3 h2 {
+  height: 44px;
+  line-height: 44px;
+  font-size: 22px;
+  text-align: center;
+  color: #fff; }
+  .social h2 span,
+  .social2 h2 span,
+  .social3 h2 span {
+    float: left;
+    padding-left: 20px; }
+  .social h2 i,
+  .social2 h2 i,
+  .social3 h2 i {
+    float: right;
+    padding-right: 20px; }
+
+.social h2 {
+  background: #1D1A23; }
+.social .social-div {
+  margin-top: 12px;
+  text-align: center; }
+  .social .social-div input {
+    padding-left: 10px;
+    width: 70%;
+    background: #F5F3F8;
+    height: 30px;
+    border: none;
+    border-radius: 15px 0 0 15px; }
+  .social .social-div span {
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    line-height: 25px;
+    border-radius: 0 15px 15px 0;
+    background: #F5F3F8; }
+.social .social-ul li {
+  margin-top: 38px;
+  display: -webkit-flex;
+  -webkit-justify-content: space-around; }
+  .social .social-ul li dl {
+    text-align: center; }
+    .social .social-ul li dl dd {
+      margin-top: 15px;
+      color: #000; }
+    .social .social-ul li dl img {
+      width: 100px;
+      height: 100px; }
+
+.social2 .social2-mark {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #7048bf;
+  opacity: 0.6; }
+.social2 .social2-d {
+  position: absolute;
+  top: 12%;
+  left: 7%;
+  width: 85%;
+  height: 76%;
+  background: #fff; }
+.social2 .social2-dl {
+  text-align: center; }
+  .social2 .social2-dl dt {
+    width: 100%;
+    height: 235px; }
+    .social2 .social2-dl dt img {
+      width: 100%;
+      height: 100%; }
+  .social2 .social2-dl dd {
+    margin-top: 15px;
+    font-weight: 700; }
+    .social2 .social2-dl dd p {
+      font-size: 12px;
+      font-weight: 400;
+      margin-top: 10px; }
+.social2 .social2-ul {
+  display: -webkit-flex;
+  -webkit-justify-content: space-around;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 700; }
+  .social2 .social2-ul p {
+    font-size: 14px;
+    font-weight: 400; }
+.social2 .social2-div {
+  margin-top: 50px;
+  display: -webkit-flex;
+  -webkit-justify-content: space-around; }
+  .social2 .social2-div span {
+    width: 35%;
+    height: 44px;
+    line-height: 44px;
+    text-align: center; }
+    .social2 .social2-div span:nth-child(1) {
+      background: #6AED0D;
+      color: #fff;
+      border-radius: 22px; }
+    .social2 .social2-div span:nth-child(2) {
+      color: #913FFD; }
+
+.conts {
+  height: 583px;
+  overflow-y: auto; }
+
+.social3 .social3-nav {
+  display: -webkit-flex;
+  -webkit-justify-content: space-around;
+  height: 40px;
+  line-height: 40px;
+  border-top: 1px solid #34313A;
+  background: #1E1B24; }
+  .social3 .social3-nav span {
+    color: #ccc; }
+.social3 .social3-div {
+  margin-left: 14px;
+  margin-top: 20px; }
+  .social3 .social3-div dl {
+    height: 90px;
+    width: 100%; }
+    .social3 .social3-div dl dt {
+      float: left; }
+    .social3 .social3-div dl dd {
+      padding-top: 10px;
+      margin-left: 10px;
+      float: left;
+      font-weight: 700;
+      color: #000; }
+      .social3 .social3-div dl dd p {
+        font-size: 14px;
+        font-weight: 400;
+        color: #BABABC; }
+  .social3 .social3-div ul {
+    display: -webkit-flex;
+    -webkit-justify-content: space-around; }
+    .social3 .social3-div ul li {
+      width: 240px; }
+      .social3 .social3-div ul li img {
+        width: 100%;
+        height: auto; }
+
+/*# sourceMappingURL=style.css.map */

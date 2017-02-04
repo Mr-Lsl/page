@@ -1,0 +1,152 @@
+html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body, .box {
+  height: 100%;
+  width: 100%;
+}
+
+.Signin, .home, .register {
+  height: 100%;
+  width: 100%;
+  background: url("../images/Login.png") no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+}
+
+h2 {
+  position: absolute;
+  top: 55px;
+  left: 0;
+  color: #fff;
+  font-size: 22px;
+  width: 100%;
+  text-align: center;
+  z-index: 10
+}
+
+p {
+  font-size: 16px
+}
+
+.home-dl {
+  dt {
+    margin-top: 150px;
+    height: auto;
+    width: 100%;
+    img {
+      height: 251px;
+      width: 100%
+    }
+  }
+  dd {
+    padding: 20px 0;
+    color: #1F1C27;
+    text-align: center;
+    background: #FFFFFF;
+    line-height: 20px;
+    font-size: 16px
+  }
+  div {
+    color: #D5D5D7;
+    font-size: 14px;
+  }
+}
+
+.home-div {
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  opacity: 0.3
+}
+
+.home-but {
+  position: absolute;
+  bottom: 22px;
+  left: 10%;
+  width: 80%;
+  height: 44px;
+  border-radius: 22px;
+  background: #FFFFFF;
+  border: none;
+  z-index: 10;
+  color: #000;
+  font-weight: 700
+}
+
+.col {
+  background: #2c5eff;
+  color: #fff;
+}
+
+.Signin-ul, .register-ul {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  li {
+    margin-left: 10%;
+    width: 80%;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+    margin-top: 20px;
+  }
+  input {
+    border: none;
+    background: none;
+    color: #fff;
+    text-align: center;
+  }
+}
+
+.Signin-but {
+  bottom: 150px
+}
+
+.register-but {
+  bottom: 80px
+}
+
+.Signin-div {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  left: 0;
+  bottom: 90px;
+  z-index: 10;
+  span {
+    display: inline-block;
+    width: 35%;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    color: #fff;
+    &:nth-child(1) {
+      background: #3C4EB4;
+      border-radius: 22px 0 0 22px;
+    }
+    &:nth-child(2) {
+      background: #E2402B;
+      border-radius: 0 22px 22px 0;
+    }
+  }
+}
+
+.Signin-p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  left: 0;
+  bottom: 40px;
+  z-index: 10;
+  color: #fff;
+}
